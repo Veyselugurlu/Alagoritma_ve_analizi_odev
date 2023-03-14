@@ -1,0 +1,6 @@
+Algoritmanın çalışma süresi veri boyutuna bağlı olarak değişir. Genellikle algoritmanın çalışma süresi girdi boyutu arttıkça artar ve girdi boyutu azaldıkça azalır. Bu algoritmanın verileri işlemek için daha fazla zaman ve kaynak gerektirdiği anlamına gelir.
+
+nedeni: Algoritmanın veri boyutuna göre çalıştırdığı işlemlerin sayısı ve karmaşıklığıdır. Veri boyutu arttıkça, algoritmanın yürüttüğü işlemlerin sayısı artar ve bu da işlem süresinin artmasına neden olur. Mesela, bir dizideki en büyük sayıyı bulan bir algoritma, dizinin boyutu arttıkça daha fazla sayıda elemanı kontrol etmek zorunda kalır ve bu da işlem süresinin artmasına neden olur.
+
+Algoritmanın çalışma süresi algoritmanın çalışma şekline, algoritmanın veri yapısı ve işlem karmaşıklığı gibi faktörlere de bağlıdır. Bazı algoritmalar, veri boyutu arttıkça daha verimli hale gelirken, bazıları daha az verimli hale gelebilir (Bruteforce algoritması gibi mesela).
+bruteforce algoritması küçük dizilerde hızlı çalışabilir ama buyuk dizilerde performans sorunu yaşatır. Bu nedenle, algoritmanın hangi durumlarda en iyi performansı göstereceğini belirlemek için, veri yapısı ve işlem karmaşıklığının dikkate alınması gerekir.
